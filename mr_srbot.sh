@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/x7_bot
+cd $HOME/mr_srbot
 
 install() {
 	    cd tg
@@ -67,8 +67,8 @@ fi
 #  --permanent-peer-ids                 use permanent peer ids
 #			#			#			#			#			#			#			#			#			#
 #Example To launch with second profile :
-# ./x7_bot.sh -p second-profile
+# ./mr_srbot.sh -p second-profile
 
 #			  OR
 
-# ./x7_bot.sh --profile second-profile
+# ./mr_srbot.sh --profile second-profile
