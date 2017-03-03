@@ -1,4 +1,4 @@
-# [X7_BOT](https://telegram.me/BOTHU)
+# [mr_srBOT](https://telegram.me/mr_srbot)
 
 **An advanced and powerful administration bot based on NEW TG-CLI
 
@@ -17,11 +17,11 @@
 
 # التنصيب
 
-git clone https://github.com/x7h/x7_bot.git
-cd x7_bot
-chmod +x x7_bot.sh
-./x7_bot.sh install
-./x7_bot.sh 
+git clone https://github.com/haiderqwwwqe/mr.SRBOT.git
+cd mr.SRBOT
+chmod +x mr.SRBOT.sh
+./mr.SRBOT.sh install
+./mr.SRBOT.sh 
  #عيد اخر كودين
 # Enter a phone number & confirmation code.
 
@@ -31,7 +31,7 @@ After you run the bot for first time, send it `!id`. Get your ID and stop the bo
 Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following format:
 ```
     sudo_users = {
-    157059515,
+    86520459,
     0,
     YourID
   }
@@ -42,12 +42,12 @@ Then restart the bot.
 
 # Support and development
 
-More information [X7_BOT CHANNEL](https://telegram.me/joinchat/BOTHU)
+More information [roroc1](https://telegram.me/joinchat/roroc1)
 
 
 # Developers!
 
-[جوكر بغداد](https://github.com/X7H) ([Telegram](https://telegram.me/DEV_IRAQ1))
+[حيدوري الملك 997](https://github.com/X7H) ([Telegram](https://telegram.me/dev_haider))
 ### Our Telegram channel:
 
-[@BOTHU](https://telegram.me/BOTHU)
+[@mr_srbot](https://telegram.me/mr_srbot)
