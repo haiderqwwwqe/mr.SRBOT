@@ -80,6 +80,8 @@ function create_config( )
     enabled_plugins = {
     "banhammer",
     "groupmanager",
+    "dev-haider",
+    "ks",
     "msg-checks",
     "plugins",
     "tools"
