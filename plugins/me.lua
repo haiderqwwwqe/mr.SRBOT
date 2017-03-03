@@ -33,7 +33,7 @@ local function run(msg, matches)
 				else
 					rank = 'Group Member👲'
 				end
-				local text = '<b>اهلا وسهلا عزيزي هذه 🌝معلوماتك :</b>\n..\n<b>الاسم الاول🎀 :</b> <i>'..data.first_name_..'</i>\n..\n<b>الاسم الثاني🎏 :</b> <i>'..lastName..'</i>\n..\n<b>المعرف💬:</b> '..username..'\n..\n<b>الايدي📌 :</b> [ <code>'..data.id_..'</code> ]\n..\n<b> ايدي الكروب📄 :</b> [ <code>'..arg.chat_id..'</code> ]\n..\n<b>رقم هاتفك📱 :</b> [ <code>'..telNum..'</code> ]\n..\n<b>موقعك📍 :</b> <i>'..rank..'</i>\n..\n<i>BY JOZEF&JOKER🃏</i>'
+				local text = '<b>اهلا وسهلا عزيزي هذه 🌝معلوماتك :</b>\n..\n<b>الاسم الاول🎀 :</b> <i>'..data.first_name_..'</i>\n..\n<b>الاسم الثاني🎏 :</b> <i>'..lastName..'</i>\n..\n<b>المعرف💬:</b> '..username..'\n..\n<b>الايدي📌 :</b> [ <code>'..data.id_..'</code> ]\n..\n<b> ايدي الكروب📄 :</b> [ <code>'..arg.chat_id..'</code> ]\n..\n<b>رقم هاتفك📱 :</b> [ <code>'..telNum..'</code> ]\n..\n<b>موقعك📍 :</b> <i>'..rank..'</i>\n..\n<i>@roroc1 🃏</i>'
 				tdcli.sendMessage(arg.chat_id, msg.id_, 1, text, 1, 'html')
 			end
 		end
