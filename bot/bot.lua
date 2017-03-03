@@ -90,15 +90,15 @@ function create_config( )
     moderation = {data = './data/moderation.json'},
     info_text = [[🔹مطورين البوت🔹      
            🔹◐◐◐◐◐◐✹◑◑◑◑◑◑🔹
-           💯DeV : @AhMaD_X7
-           💯DeV : @dev_iraq1
+           💯DeV : @dev_haider
+           💯DeV : @dev_ameer
            🔹◐◐◐◐◐◐✹◑◑◑◑◑◑🔹  
   🔸بوت تواصل للمحضورين🔸
            🔹◐◐◐◐◐◐✹◑◑◑◑◑◑🔹
-           💯DeV : @tawasla7mad_bot
-           💯DeV : @jokr1996_bot
+       
+           💯DeV : @haiderqwwq97_bot
            🔹◐◐◐◐◐◐✹◑◑◑◑◑◑🔹
-                 B❂T x7
+                 mr.SRB❂T
 ]],
   }
   serialize_to_file(config, './data/config.lua')
