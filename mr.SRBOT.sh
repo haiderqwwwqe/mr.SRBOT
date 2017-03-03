@@ -67,8 +67,8 @@ fi
 #  --permanent-peer-ids                 use permanent peer ids
 #			#			#			#			#			#			#			#			#			#
 #Example To launch with second profile :
-# ./mr_srbot.sh -p second-profile
+# ./mr.SRBOT.sh -p second-profile
 
 #			  OR
 
-# ./mr_srbot.sh --profile second-profile
+# ./mmr.SRBOT.sh --profile second-profile
