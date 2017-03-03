@@ -6,12 +6,12 @@ if ( msg.text ) then
 
   if ( msg.to.type == "user" ) then
 
-return " لُتْحُدِثُ مٌْع مٌطِوَرَيَنَ الُسِوَرَسِ  الُرَجْاء مٌرَسِالُتُْهمٌ ْعبّرَ الُمٌْعرَفَاتْ الُاتْيَُه✈️👇  \n 🦁 @haiderqwwq \n🦁 @haiderqwwq97_bot \n\n وَاذَا كِنَتْ مٌحُظٌوَرَ تْحُدِثُ مٌْعُهمٌ ْعبّرَُه بّوَتْاتْ الُتْوَاصّلُ\n🐯 @haiderqwwq \n 🐯 @roroc1 "
+return " لُتْحُدِثُ مٌْع مٌطِوَرَيَنَ الُسِوَرَسِ  الُرَجْاء مٌرَسِالُتُْهمٌ ْعبّرَ الُمٌْعرَفَاتْ الُاتْيَُه✈️👇  \n 🦁 @dev_haider \n🦁 @haiderqwwq97_bot \n\n وَاذَا كِنَتْ مٌحُظٌوَرَ تْحُدِثُ مٌْعُهمٌ ْعبّرَُه بّوَتْاتْ الُتْوَاصّلُ\n🐯 @mr_srbot \n 🐯 @roroc1 "
   end
    
 end 
 
--- @illOlli
+-- @dev_haider
 
 end 
 
@@ -23,4 +23,4 @@ return {
 } 
 
 end 
--- By illOlli
+-- By haider_sebot
