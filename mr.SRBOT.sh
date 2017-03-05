@@ -34,7 +34,7 @@ fi
    echo -e "     > BeyondTeam Source :D                        "
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
-   ./tg/tgcli -s ./bot/mmr.SRBOT.lua $@
+   ./tg/tgcli -s ./bot/bot.lua $@
 fi
 
 # Now All Argument Support after ./beyond.sh !
