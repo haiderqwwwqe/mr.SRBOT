@@ -71,4 +71,4 @@ fi
 
 #			  OR
 
-# ./mmr.SRBOT.sh --profile second-profile
+# ./mr.SRBOT.sh --profile second-profile
