@@ -82,7 +82,8 @@ function create_config( )
     "groupmanager",
     "dev-haider",
     "ks",
-    "msg-checks",
+    "msg-checks", 
+    "replay",
     "plugins",
     "tools"
  },
