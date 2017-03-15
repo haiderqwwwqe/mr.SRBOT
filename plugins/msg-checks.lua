@@ -1,4 +1,4 @@
---Begin msg_checks.lua By @SoLiD
+--Begin msg_checks.lua By @dev_iraq
 local TIME_CHECK = 2
 local function pre_process(msg)
 local data = load_data(_config.moderation.data)
@@ -155,11 +155,12 @@ del_msg(msg.chat_id_, tonumber(msg.id_))
   end
 end
       if not is_mod(msg) then
+if not is_mod(msg) then
 if msg.content_.caption_ then
-if lock_link == "yes" then
+if lock_link == "yes" then  
 		local is_link_caption = msg.content_.caption_:match("[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/") or msg.content_.caption_:match("[Tt][Ll][Gg][Rr][Mm].[Mm][Ee]/") or msg.content_.caption_:match("[Tt][Ll][Gg][Rr][Mm].[Dd][Oo][Gg]/") or msg.content_.caption_:match("[Tt].[Mm][Ee]/")
 if is_link_caption then
- if is_channel then
+  if is_channel then
  del_msg(msg.chat_id_, tonumber(msg.id_))
   elseif is_chat then
 kick_user(user, chat)
@@ -186,7 +187,7 @@ kick_user(user, chat)
 if lock_tag == "yes" then
 local tag_caption = msg.content_.caption_:match("@") or msg.content_.caption_:match("#")
 if tag_caption then
- if is_channel then
+  if is_channel then
  del_msg(msg.chat_id_, tonumber(msg.id_))
   elseif is_chat then
 kick_user(user, chat)
@@ -198,10 +199,11 @@ if msg.edited and lock_edit == "yes" then
  if is_channel then
  del_msg(msg.chat_id_, tonumber(msg.id_))
   elseif is_chat then
-kick_user(user, chat)
+kick_user(user, chat) 
     end
   end
-if msg.forward_info_ and mute_forward == "yes" then
+end
+if msg.forward_info_ and mute_forward == "yes" then			
  if is_channel then
  del_msg(msg.chat_id_, tonumber(msg.id_))
   elseif is_chat then
@@ -295,12 +297,13 @@ if msg.text then
 kick_user(user, chat)
    end
 end
+if not is_mod(msg) then
 local link_msg = msg.text:match("[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/") or msg.text:match("[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Dd][Oo][Gg]/") or msg.text:match("[Tt].[Mm][Ee]/") or msg.text:match("[Tt][Ll][Gg][Rr][Mm].[Mm][Ee]/")
 if link_msg
 and lock_link == "yes" then
  if is_channel then
  del_msg(msg.chat_id_, tonumber(msg.id_))
-  elseif is_chat then
+elseif is_chat then
 kick_user(user, chat)
    end
 end
@@ -404,8 +407,9 @@ redis:setex('sender:'..user..':flood', 30, true)
       end
    end
 end
+end
 return {
 	patterns = {},
 	pre_process = pre_process
 }
---End msg_checks.lua
+--End msg_checks.lua 
