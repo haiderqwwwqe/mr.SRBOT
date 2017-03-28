@@ -1,7 +1,7 @@
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
 feedparser = (loadfile "./libs/feedparser.lua")()
-our_id = 255130419 -- Put Here Your Bot ID
+our_id = 367513629 -- Put Here Your Bot ID
 --حط ايدي بوتك
 URL = require "socket.url"
 http = require "socket.http"
@@ -80,27 +80,27 @@ function create_config( )
     enabled_plugins = {
     "banhammer",
     "groupmanager",
-    "dev-haider",
-    "ks",
-    "msg-checks", 
-    "replay",
+    "msg-checks",
     "plugins",
-    "tools"
+    "tools",
+    "me",
+    "pohot",
+    "replay",			
  },
     sudo_users = {86520459},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
     info_text = [[🔹مطورين البوت🔹      
-           🔹◐◐◐◐◐◐✹◑◑◑◑◑◑🔹
+           🔹🔲🔲🔲🔲🔲💎🔲🔲🔲🔲🔲🔹
            💯DeV : @dev_haider
-           💯DeV : @dev_ameer
-           🔹◐◐◐◐◐◐✹◑◑◑◑◑◑🔹  
+           💯DeV : @roroc1
+           🔹🔲🔲🔲🔲🔲💎🔲🔲🔲🔲🔲🔹  
   🔸بوت تواصل للمحضورين🔸
-           🔹◐◐◐◐◐◐✹◑◑◑◑◑◑🔹
+           🔹🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲🔹
        
            💯DeV : @haiderqwwq97_bot
-           🔹◐◐◐◐◐◐✹◑◑◑◑◑◑🔹
+           🔹🔲🔲🔲🔲🔲💎🔲🔲🔲🔲🔲🔹
                  mr.SRB❂T
 ]],
   }
