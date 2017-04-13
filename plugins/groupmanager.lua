@@ -3133,5 +3133,3 @@ pre_process = pre_process
 }
 --by @dev_iraq2
 --by_ch_ @bothu
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status 
