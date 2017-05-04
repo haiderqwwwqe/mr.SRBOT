@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/./mr.SRBOT
+cd $HOME/./mr.SRBOT.sh
 
 install() {
 	    cd tg
